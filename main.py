@@ -8,7 +8,6 @@ from tqdm import tqdm
 import pyrallis
 from dataclasses import asdict, dataclass
 
-from tensorforce.environments import Environment
 
 from environment.env_discrete import EnvDiscrete
 from environment.env_continuous import EnvContinuous
